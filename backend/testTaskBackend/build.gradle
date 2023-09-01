@@ -30,3 +30,6 @@ jar {
         attributes 'Main-Class': 'com.mycompany.testtaskbackend.TestTaskBackend'
     }
 }
+task showMeCache doLast() {
+    configurations.compileClasspath.each { println it }
+}
