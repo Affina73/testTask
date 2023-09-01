@@ -56,7 +56,6 @@ export default function Overview() {
         cardMetadata={roomdetails}
         filterRoomsText={filterRoomsText}
         size={WIDTH / NUM_ROOM_IN_ROW - 1.5 * theme.spacing().slice(0, -2)}
-        renderNewRoomButton={true}
       />
     </Box>
   );
